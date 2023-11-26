@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MAIN PAGE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a,
+    .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: orange;
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 180px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    h1 {
+      text-align: center;
+      color: black;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    span {
+      color: #d800f4;
+    }
+
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: MediumSeaGreen;
+      color: white;
+      z-index: 100;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .fa {
+      padding: 18px;
+      font-size: 18px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-github {
+      background: white;
+      color: grey;
+    }
+
+    .fa-instagram {
+      background: white;
+      color: red;
+    }
+
+    .fa-APSIT {
+      background-image: url('/images/Picture1.jpg');
+      padding: 85px;
+      width: 95px;
+      text-decoration: none;
+      background-repeat: no-repeat;
+      margin-left: 70px;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 style="color: #f47e00;">
+    < HEALTHCARE ASSISTANCE SYSTEM>
+  </h1>
+
+  <ul>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">DISEASE PREDICTION</a>
+      <div class="dropdown-content">
+        <a href="/heart_pred">HEART</a>
+        <a href="/diabetes_pred">DIABETES</a>
+        <a href="/liver_pred">LIVER</a>
+        <a href="/lung_cancer_pred">LUNG CANCER</a>
+        <a href="/breast_cancer_pred">BREAST CANCER</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">MEDICINE INFORMATION</a>
+      <div class="dropdown-content">
+        <a href="/fever">FEVER</a>
+        <a href="/cough">COUGH</a>
+        <a href="/head_ache">HEAD ACHE</a>
+        <a href="/stomach_pain">STOMACH ACHE</a>
+        <a href="/allergy">ALLERGY</a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">DOCTOR INORMATION</a>
+      <div class="dropdown-content">
+        <a href="/heart_treatment">CARDIOLOGIST - Heart</a>
+        <a href="/diabetes_treatment">DIABETOLOGIST - Diabetes</a>
+        <a href="/cancer_treatment">ONCOLOGISTS - Cancer</a>
+      </div>
+    </li>
+  </ul>
+  <br><br><br>
+  <h1 style="color: #91d70e; text-decoration: underline; font-size: 45px;"> HEALTH IS WEALTH </h1>
+  <br><br>
+  <h1 style="color: #191a1a;">"Health is a state of complete physical, mental and social well-being, not merely the
+    absence of disease or
+    infirmity." - <span>World Health Organization.</span></h1>
+  <br><br>
+  <h1>=>Healthcare involves the provision of medical services and treatment to maintain or improve individuals physical and mental health.</h1>
+  <br><br>
+  <h1>We are Providing the services for patients like <br>
+    1. Disease Prediction<br>
+    2. Medicine Information<br>
+    3. Doctors Information<br>
+    <h2>In Disease Prediction we are providing the predictions of Diseases like Heart, Diabetes, Liver, Lung Cancer and
+      Breast Cancer.</h2><br>
+    <h2>In Medicine Information we are providing the Information of Medicine for Fever, Cough, Stomach Ache, Head Ache
+      and
+      Allergy.</h2><br>
+    <h2>In Doctors Information we are providing the Information of doctors related to Cardiologist,Diabetologist and
+      Oncologist of Certain Cities like Chennai,Coimbature,Vijayawada,Visakhapatnam,Bangalore,Thiruvananthapuram,Kochi.
+    </h2>
+
+  </h1>
+  <br><br><br>
+  <h1 style="color: rgb(112, 110, 222); text-decoration: underline;">Benefits of Our Website</h1><br>
+  <h2>1. Quick Prediction</h2><br>
+  <h2>2. Early Indication of Disease</h2><br>
+  <h2>3. Doctors Information of Particular Disease</h2><br>
+  <h2>4. Medicine Information</h2><br>
+  <br><br><br>
+
+  <br><br><br>
+  <div class="about-section">
+    <h1>About Us Page</h1>
+    <h2>Students from APSIT.</h2>
+    <a target="_blank" href="https://www.apsit.edu.in/" class="fa fa-APSIT"></a>
+    <h3 style="text-align:center;">You can also Contact us on....</h3>
+    <a target="_blank" href="https://www.linkedin.com/in/sanskarkurmi29/" class="fa fa-linkedin"></a>
+    <a target="_blank" href="https://github.com/SanskarBigBren" class="fa fa-github"></a>
+    <a target="_blank" href="https://www.instagram.com/_sanskar.k/" class="fa fa-instagram"></a>
+  </div>
+</body>
+
+</html>
